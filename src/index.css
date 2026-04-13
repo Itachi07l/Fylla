@@ -1,0 +1,352 @@
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0.8rem;
+}
+
+main {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.header {
+  width: 100%;
+}
+.header p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+.header h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  width: 80%;
+}
+
+.header img {
+  margin-top: 2rem;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.view-2 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.view-2 .top {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-2 .top p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+.view-2 .top h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.view-2 .top button {
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  border: 0.7rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 4px;
+}
+.view-2 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.view-2 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-2 .bottom .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-2 .bottom .elem svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+.view-2 .bottom .elem h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.view-2 .bottom .elem p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+.view-3 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.view-3 .line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+.view-3 .left {
+  padding-block: 2rem;
+}
+.view-3 .left h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+.view-3 p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+.view-3 .right {
+  width: 100%;
+}
+.view-3 .right h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+}
+.view-3 .right .box {
+  margin-block: 2rem;
+}
+.view-3 .right p {
+  font-weight: 200;
+  opacity: 0.8;
+  margin: 1rem;
+  margin-left: -0.2rem;
+}
+.view-3 .right video {
+  width: 100%;
+  border-radius: 1rem;
+}
+.view-3 .right1 {
+  width: 100%;
+}
+.view-3 .right1 h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-inline: 1rem;
+  padding-top: 0.5rem;
+}
+.view-3 .right1 .box {
+  margin-block: 2rem;
+}
+.view-3 .right1 p {
+  font-weight: 200;
+  opacity: 0.8;
+  margin: 1rem;
+  margin-left: -0.2rem;
+}
+.view-3 .right1 video {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.view-4 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.view-4 .line {
+  background-color: black;
+  height: 0px;
+  width: 100%;
+}
+.view-4 .left {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+.view-4 .left h1 {
+  padding: 0.5rem 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.view-4 .left p {
+  font-weight: 200;
+  opacity: 0.8;
+}
+.view-4 .right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.view-4 .right button {
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  border: 0.7rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 4px;
+}
+.view-3 .left1 button {
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  border: 0.7rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 4px;
+  margin-top: 2.5rem;
+}
+.view-4 .right h3 {
+  margin-bottom: 2rem;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.view-4 svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+
+@media (min-width: 1020px) {
+  main {
+    padding: 3rem;
+  }
+  .header h1 {
+    font-size: 8rem;
+    width: 100%;
+  }
+  .view-2 {
+    margin: 4rem 0;
+    flex-direction: row;
+  }
+  .view-2 .top {
+    width: 60%;
+    justify-content: space-between;
+  }
+  .view-2 .top h1 {
+    font-size: 5rem;
+  }
+  .view-2 .line {
+    height: inherit;
+    width: 1px;
+  }
+  .view-2 .bottom {
+    width: 40%;
+  }
+  .view-2 .bottom .line {
+    width: 100%;
+    height: 1px;
+  }
+  .view-3 {
+    flex-direction: row;
+  }
+  .view-3 .line {
+    height: inherit;
+    width: 1px;
+  }
+  .view-3 .left {
+    height: 100%;
+    width: 30%;
+    position: sticky;
+    top: 1px;
+  }
+
+  .view-3 .left h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  .view-3 .left p {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+    .view-3 .left1 {
+    height: 100%;
+    width: 50%;
+    position: sticky;
+    top: 1px;
+  }
+  .view-3 .left1 h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  .view-3 .left1 p {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+  .view-3 .right {
+    display: flex;
+    gap: 2rem;
+    width: 70%;
+  }
+  .view-3 .right1 {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+  .view-3 .right h3 {
+    font-size: 1.6rem;
+    width: 80%;
+  }
+  .view-4 {
+    height: 60vh;
+    flex-direction: row;
+  }
+  .view-4 .line {
+    height: inherit;
+    width: 1px;
+  }
+  .view-4 .left {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+  }
+  .view-4 .left p {
+    font-size: 1.6rem;
+  }
+  .view-4 .left h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    width: 80%;
+  }
+  .view-4 .right {
+    width: 35%;
+    justify-content: space-between;
+    padding-inline: 2rem;
+  }
+  .view-4 .right h3 {
+    padding: 2rem;
+    font-size: 1.6rem;
+  }
+  .view-4 .right button {
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
