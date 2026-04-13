@@ -20,7 +20,7 @@ function Navbar() {
           <Link to="/" className="hover:text-black transition">HOME</Link>
           <Link to="/Services" className="hover:text-black transition">SERVICES</Link>
           <Link to="/About" className="hover:text-black transition">ABOUT</Link>
-          <Link to="/blog" className="hover:text-black transition">CONTACT</Link>
+          <Link to="/Contact" className="hover:text-black transition">CONTACT</Link>
         </nav>
 
         {/* Right side */}
