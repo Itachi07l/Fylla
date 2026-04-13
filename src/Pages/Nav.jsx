@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header className="w-full bg-[#f5f3ef] border-b border-slate-300 px-6 py-4">
+    <header className="w-full  border-b border-slate-300 px-6 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
@@ -16,11 +17,10 @@ function Navbar() {
 
         {/* Menu */}
         <nav className="hidden md:flex items-center gap-8 text-sm tracking-wide text-slate-700">
-          <a href="#" className="hover:text-black transition">SERVICES</a>
-          <a href="#" className="hover:text-black transition">WORK</a>
-          <a href="#" className="hover:text-black transition">STUDIO</a>
-          <a href="#" className="hover:text-black transition">BLOG</a>
-          <a href="#" className="hover:text-black transition">PAGES ▾</a>
+          <Link to="/" className="hover:text-black transition">HOME</Link>
+          <Link to="/Services" className="hover:text-black transition">SERVICES</Link>
+          <Link to="/About" className="hover:text-black transition">ABOUT</Link>
+          <Link to="/blog" className="hover:text-black transition">CONTACT</Link>
         </nav>
 
         {/* Right side */}
